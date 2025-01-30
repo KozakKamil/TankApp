@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankApp", "TankApp\TankApp.csproj", "{9122365E-8B75-4EF8-83B2-A0F5D0DD0500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankBackend", "TankBackend\TankBackend.csproj", "{6F302A19-BC35-4B98-A62F-4A11E8161348}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9122365E-8B75-4EF8-83B2-A0F5D0DD0500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9122365E-8B75-4EF8-83B2-A0F5D0DD0500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9122365E-8B75-4EF8-83B2-A0F5D0DD0500}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9122365E-8B75-4EF8-83B2-A0F5D0DD0500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9122365E-8B75-4EF8-83B2-A0F5D0DD0500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9122365E-8B75-4EF8-83B2-A0F5D0DD0500}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6F302A19-BC35-4B98-A62F-4A11E8161348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F302A19-BC35-4B98-A62F-4A11E8161348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F302A19-BC35-4B98-A62F-4A11E8161348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F302A19-BC35-4B98-A62F-4A11E8161348}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C806C1F-5582-4F6C-B046-5F1621F66FDA}
+	EndGlobalSection
+EndGlobal

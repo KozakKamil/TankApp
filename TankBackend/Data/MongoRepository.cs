@@ -6,7 +6,7 @@ namespace TankBackend.Data;
 
 public class MongoRepository<T> : IMongorepository<T> where T : class
 {
-    private readonly IMongoCollection<T> _collection;
+    protected readonly IMongoCollection<T> _collection;
 
     public MongoRepository(IMongoClient client, string databaseName, string collectionName)
     {
@@ -43,4 +43,6 @@ public class MongoRepository<T> : IMongorepository<T> where T : class
     {
         await _collection.DeleteOneAsync(Builders<T>.Filter.Eq("_id", ObjectId.Parse(id)));
     }
+
+    public IMongoCollection<T> GetCollection() => _collection;
 }

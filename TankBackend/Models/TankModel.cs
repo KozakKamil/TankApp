@@ -7,7 +7,7 @@ public class TankModel
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
-    public required string Id { get; set; }
+    public ObjectId Id { get; set; }
 
     public required string TankName { get; set; }
     public string? Weight { get; set; }
